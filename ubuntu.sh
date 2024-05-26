@@ -1,7 +1,7 @@
 #!/bin/bash
 if [[ $(id -u) -ne 0 ]] ; then echo "Please run as root" ; exit 1 ; fi
 echo //==============================================================
-echo   Nessus latest DOWNLOAD, INSTALL, and Config
+echo   Nessus latest DOWNLOAD, INSTALL, and CONFIG
 echo //==============================================================
 echo " o antiskid extra thing added removing all chattr"
 chattr -i -R /opt/nessus
