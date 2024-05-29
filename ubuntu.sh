@@ -95,7 +95,7 @@ echo " o Monitoring Nessus progress. Following line updates every 10 seconds unt
 zen=0
 while [ $zen -ne 100 ]
 do
- statline=`curl -sL -k https://localhost:11127/server/status|awk -F"," -v k="engine_status" '{ gsub(/{|}/,""); for(i=1;i<=NF;i++) { if ( $i ~ k ){printf $i} } }'`
+ statline=`curl -sL -k https://localhost:12345/server/status|awk -F"," -v k="engine_status" '{ gsub(/{|}/,""); for(i=1;i<=NF;i++) { if ( $i ~ k ){printf $i} } }'`
  if [[ $statline != *"engine_status"* ]]; then echo -ne "\n Problem: Nessus server unreachable? Trying again..\n"; fi
  echo -ne "\r $statline"
  if [[ $statline == *"100"* ]]; then zen=100; else sleep 10; fi
