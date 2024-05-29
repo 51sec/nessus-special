@@ -1,4 +1,6 @@
-This is a Nessus installation scrip for easy deployment on Ubuntu linux os. 
+This is a Nessus installation scrip for easy deployment on Ubuntu or Debian linux os. 
+
+Here are some commands for ubuntu.sh in Ubuntu environments. Same as in Debian environment. 
 
 vi ubuntu.sh
 
