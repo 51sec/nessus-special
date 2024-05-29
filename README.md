@@ -8,10 +8,10 @@ chmod +x ubuntu.sh
 
 https://(public ip):12345
 
-Access your Nessus:  https://localhost:12345/ (or your VPS IP)"
+Access your Nessus:  https://localhost:12345/ (or your VPS IP)
 
-                            username: admin"
+                            username: admin
                             
-                            password: netsec"
+                            password: netsec
                             
-                            you can change this any time"
+                            you can change this any time
