@@ -105,6 +105,6 @@ echo
 echo "        Access your Nessus:  https://localhost:12345/ (or your VPS public IP)"
 echo "                             username: admin"
 echo "                             password: netsec"
-echo "                             you can change this any time"
+echo "                             You can change those settings any time after logged in!"
 echo
 read -p "Press enter to continue"
