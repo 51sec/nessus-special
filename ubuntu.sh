@@ -102,7 +102,7 @@ do
 done
 echo -ne '\n  o Done!\n'
 echo
-echo "        Access your Nessus:  https://localhost:12345/ (or your VPS IP)"
+echo "        Access your Nessus:  https://localhost:12345/ (or your VPS public IP)"
 echo "                             username: admin"
 echo "                             password: netsec"
 echo "                             you can change this any time"
